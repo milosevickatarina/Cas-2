@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderForm</title>
+</head>
+<body>
+ <h1>Order Form</h1>   
+  <div>
+    <label for="name">Your Name:</label>
+    <input type="text" placeholder="Your Name" name="name" id="name">
+  </div> 
+  <br>
+  <br>
+  <div>
+    <label for="email">Your E-mail:</label>
+    <input type="email" placeholder="Your Email" name="email" id="email">
+  </div>
+  <br>
+  <br>
+  <div>
+    <label for="product">Choose your product:</label>
+    <input type="checkbox" name="product" id="product1"><label>Product1</label>
+    <input type="checkbox" name="product" id="product2"><label>Product2</label>
+    <input type="checkbox" name="product" id="product3"><label>Product3</label>
+  </div>
+  <br>
+  <br>
+  <div>
+    <label for="date">Delivery Date:</label>
+    <input type="date" name="date" id="date">
+  </div>
+  <br>
+  <br>
+  <div>
+    <label for="quantity">Quantity:</label>
+    <input type="number" name="quantity" id="quantity" min="0">
+  </div>
+  <br>
+  <br>
+  <div>
+    <label for="address">Address:</label>
+    <input type="text" placeholder="Street Address" name="address" id="address">
+  </div>
+  <br>
+  <br>
+  <div>
+  <label for="city">City:</label>
+  <select name="city" id="city">
+      <option value="----Select City----">----Select City----</option>
+      <option value="beograd">Beograd</option>
+      <option value="novi sad">Novi Sad</option>
+      <option value="nis">Nis</option>
+  </select>
+  </div>
+  <br>
+  <br>
+  <div>
+  <label for="region">Region:</label>
+  <select name="region" id="region">
+      <option value="----select region----">----Select Region----</option>
+      <option value="region1">Region1</option>
+      <option value="region2">Region2</option>
+      <option value="region3">Region3</option>
+  </select>
+  </div>
+  <br>
+  <br>
+  <input type="checkbox"><label>Notify me by email</label>
+  <br>
+  <br>
+  
+  <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your comment here"></textarea>
+
+  <br>
+  <br>
+
+  <input type="submit" value="Order" style="padding: 16;">
+
+
+</body>
+</html>
